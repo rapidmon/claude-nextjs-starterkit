@@ -15,6 +15,8 @@ const eslintConfig = defineConfig([
     'out/**',
     'build/**',
     'next-env.d.ts',
+    // Claude Code 도구 스크립트 (lint 대상 아님)
+    '.claude/**',
   ]),
 ])
 
