@@ -1,5 +1,11 @@
 {
   "permissions": {
-    "allow": ["Bash(node .claude/hooks/format-on-save.js)"]
-  }
+    "allow": [
+      "Bash(node .claude/hooks/format-on-save.js)",
+      "mcp__context7__resolve-library-id",
+      "mcp__context7__query-docs"
+    ]
+  },
+  "enableAllProjectMcpServers": true,
+  "enabledMcpjsonServers": ["context7"]
 }
